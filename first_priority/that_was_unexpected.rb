@@ -1,5 +1,10 @@
+require 'pry'
+
+def person 
 class Person
   attr_accessor :name, :candy_lover
+  binding.pry 
+end
 
   def initialize(name, candy_lover)
     @name = name
