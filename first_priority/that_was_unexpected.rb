@@ -1,9 +1,7 @@
-require 'pry'
 
  person 
 class Person
   attr_accessor :name, :candy_lover
-  binding.pry
 
 
   
